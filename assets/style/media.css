@@ -1,0 +1,49 @@
+@media (max-width: 991.99px) {
+    .blog__cols {
+        justify-content: center;
+        gap: 31px;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .main__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .opp__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 575.99px) {
+    .header__title {
+        font-size: 44px;
+    }
+
+    .menu__btn {
+        left: 82%;
+    }
+
+    .nav__list{
+        flex-direction: column;
+        position: absolute;
+        left: -100%;
+        top: 30px;
+        gap: 10px;
+        transition: .4s;
+        opacity: 0;
+    }
+
+    .nav{
+        position: relative;
+    }
+
+    .nav__menu:hover .nav__list {
+        left: 80%;
+        opacity: 1;
+    }
+}
